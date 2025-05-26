@@ -152,7 +152,7 @@ html, body{
     width: 70%;
     background-color: #1d1d1d;
     border: 1px solid #464748;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
 }
 
@@ -162,4 +162,63 @@ html, body{
     border: none;
     color: #fff;
     outline: none;
+}
+
+.container main .trending {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.container main .trending .left .info {
+    margin-top: 12px;
+    padding: 26px;
+}
+
+.container main .trending .left .info h2{
+    font-size: 56px;
+    margin-bottom: 8px;
+}
+
+.container main .trending .left .info h4,
+.container main .trending .left .info h5{
+    display: inline;
+}
+
+.container main .trending img{
+    margin-left: 12px;
+    color: #919191;
+}
+
+.container main .trending .left .info .buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.container main .trending .left .info .buttons button{
+    padding: 12px 16px;
+    background-color: #5773ff;
+    border: none;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container main .trending .left .info .buttons i{
+    color: #5773ff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.container main .trending img{
+    width: 300px;
+    height: 200px;
 }
